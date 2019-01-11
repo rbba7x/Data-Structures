@@ -1,8 +1,8 @@
 // ----------------------------------------------------------------------------------------------------------------------
-//								name: Ryan Beebe
-//								project: No. 1 part II
-//								course: CMPS 385
-//								Due: 2/14/2018
+//					Name: Ryan Beebe
+//					Project: No. 1 part II
+//					Course: CMPS 385
+//					Due: 2/14/2018
 //
 // Purpose: This project instantiates arrays of three different data types and sorts them using one function template
 //-----------------------------------------------------------------------------------------------------------------------
