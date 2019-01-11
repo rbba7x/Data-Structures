@@ -1,11 +1,10 @@
 //--------------------------------------------------------------------------------------------------------
-//								Name: Ryan Beebe
-//							  Project: No. 11 Part I
-//								Course: CMPS 385
-//								 Due: 5/16/2018
+//	   			  Name: Ryan Beebe
+//				  Project: No. 11 Part I
+//				  Course: CMPS 385
+//				  Due: 5/16/2018
 //
 // purpose: This programs allows fractions to be read, added, subtracted, multiplied, and divided.
-//    
 //--------------------------------------------------------------------------------------------------------
 
 #include <iostream>
