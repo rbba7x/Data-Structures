@@ -1,14 +1,13 @@
 //---------------------------------------------------------------------------------------
-//					Name: Ryan Beebe
+//			Name: Ryan Beebe
 //	                Project: No. 8 Part II
-//					Course: CMPS 385
-//			       	Due: 5/2/2018
+//			Course: CMPS 385
+//		   	Due: 5/2/2018
 //
-// Purpose: This project accepts input of an id, name, and account balance and places the 
+// Purpose: This project accepts input of an ID, name, and account balance and places the 
 //          information in 2 binary search trees: 1 based on name, 1 based on I.D. The 
 //          user can search for nodes in the tree, alter the information, or display the
 //          trees.
-//
 //---------------------------------------------------------------------------------------
 
 
