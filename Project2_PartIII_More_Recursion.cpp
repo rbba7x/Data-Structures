@@ -1,11 +1,10 @@
 // --------------------------------------------------------------------------------------------
-//								Name: Ryan Beebe
-//								Project: No. 2 Part III
-//								Course: CMPS 385
-//								Due: 2/21/2018
+//				Name: Ryan Beebe
+//				Project: No. 2 Part III
+//				Course: CMPS 385
+//				Due: 2/21/2018
 //
-// Purpose: This project runs 2 recursive functions and displays the clock time for part B
-//          
+// Purpose: This project runs 2 recursive functions and displays the clock time for part B          
 //---------------------------------------------------------------------------------------------
 
 
