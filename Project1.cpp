@@ -1,0 +1,218 @@
+// -----------------------------------------------------------------------------------------------------------------------------------
+//								Name: Ryan Beebe
+//								Project: No. 1 (arrays, functions, file processing)
+//								Course: CMPS 385
+//								Due: 2/14/2018
+//
+// Purpose: This project accepts input from a text file and organizes student names, ages, and gpa's into an array. This project
+//          will display the original array, a list of names of teengers, the average age, average gpa, and sorted array.
+//------------------------------------------------------------------------------------------------------------------------------------
+
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <iomanip>
+#include <algorithm>
+using namespace std;
+
+//Function's prototypes
+template <class T> void DisplayOrder(T x[], int n);
+template <class T> void sortArray(T x[], int n);
+
+struct person
+{
+	string name;
+	int age;
+	float gpa;
+};
+
+//-------------------------------------------------------------------------------------------------------
+//function name: Copy
+//input: file stream, array x of size n
+//output: None
+//-------------------------------------------------------------------------------------------------------
+void Copy(string fname, person x[], int n)
+{
+	fstream f;
+	f.open(fname, ios::in);
+	for (int i = 0; i<n; i++)
+		f >> x[i].name >> x[i].age>>x[i].gpa;
+
+	f.close();
+}
+
+//-------------------------------------------------------------------------------------------------------
+//function name: Display
+//input: Array x 
+//output: Displays array x
+//-------------------------------------------------------------------------------------------------------
+void display(person x[])
+{
+	//cout << setfill('.');
+	for (int i = 0; i < 6; i++)
+	{
+		cout << left << setw(20) << x[i].name << setw(10) << x[i].age << right << x[i].gpa << endl;
+		cout << endl;
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------
+//function name: displayTeens
+//input: Array x 
+//output: Determines which people are between age 12 and 20 and displays them
+//-------------------------------------------------------------------------------------------------------
+void displayTeens(person x[])
+{
+	//Find persons between age 12 and 20
+	cout << "The teenagers are: " << endl;
+	for (int i = 0; i < 6; i++)
+	{
+		if (x[i].age < 20 && x[i].age > 12)
+			cout << x[i].name << endl;
+	}
+
+	cout << endl;
+}
+
+//-------------------------------------------------------------------------------------------------------
+//function name: AverageGpa
+//input: Array x, GpaAve
+//output: Returns Gpa average
+//-------------------------------------------------------------------------------------------------------
+void AverageGpa(person x[], float& GpaAve)
+{	
+	//Add all GPAs together
+	for (int i = 0; i < 6; i++)
+		GpaAve += x[i].gpa;
+	GpaAve = GpaAve / 6;
+}
+
+//-------------------------------------------------------------------------------------------------------
+//function name: AverageAge
+//input: Array x 
+//output: Returns average age of students
+//-------------------------------------------------------------------------------------------------------
+float AverageAge(person x[])
+{
+	float total = 0.0;
+
+	for (int i=0;i<6;i++)
+	{
+		total += x[i].age;
+	}
+
+	return total/6;
+}
+
+//-------------------------------------------------------------------------------------------------------
+//function name: Display
+//input: Average Gpa and Average age
+//output: Displays Average Gpa and Average age
+//-------------------------------------------------------------------------------------------------------
+void Display(float GpaAve, float AgeAve)
+{
+	cout << "The average Gpa is: " << GpaAve << endl;
+	cout << "The average age is: " << AgeAve << endl;
+	cout << endl;
+}
+
+//-------------------------------------------------------------------------------------------------------
+//function name: sortArray
+//input: Array x of size n
+//output: Sorta array x
+//-------------------------------------------------------------------------------------------------------
+template <class T>
+void sortArray(T x[], int n)
+{
+	sort(x, x + n);
+} 
+
+//-------------------------------------------------------------------------------------------------------
+//function name: DisplayOrder
+//input: Array x of size n
+//output: Displays sorted array of names
+//-------------------------------------------------------------------------------------------------------
+template <class T>
+void DisplayOrder(T x[], int n)
+{
+	cout << "The names in alphabetical order are: " << endl;
+	for (int i = 0; i < n; i++)
+		cout << x[i] << "\n";
+	cout << endl;
+}
+
+
+int main()
+{
+	person a[6];
+
+	//Copy data from data.txt into array a
+	Copy("data.txt", a, 6);
+
+	//Display array a
+	display(a);
+
+	//Display the name of teenage students
+	displayTeens(a);
+
+	//Compute their gpa's average
+	float GpaAve = 0.0; 
+	AverageGpa(a, GpaAve);
+
+	//Compute their age average
+	float AgeAve = 0.0;
+	AgeAve = AverageAge(a);
+
+	//Display both Gpa and Age averages
+	Display(GpaAve, AgeAve);
+
+	//Copy array a.name's to new array of only strings
+	string b[6];
+	for (int i=0; i<6; i++)
+	{
+		b[i] = a[i].name;
+	}
+	
+	//Sorts the array
+	sortArray(b, 6);
+
+	//Displays sorted array
+	DisplayOrder(b, 6);
+
+	system("pause");
+	return 0;
+}
+
+/*
+---------------------------------Output-------------------------------------
+Walker-Steven       17        3.11
+
+Beebe-Ryan          33        3.3
+
+Garcia-Kevin        44        4.3
+
+Nguyen-Duc          19        2.91
+
+Dempsey-Austin      17        3.11
+
+Cano-Tianna         21        3.2
+
+The teenagers are:
+Walker-Steven
+Nguyen-Duc
+Dempsey-Austin
+
+The average Gpa is: 3.32167
+The average age is: 25.1667
+
+The names in alphabetical order are:
+Beebe-Ryan
+Cano-Tianna
+Dempsey-Austin
+Garcia-Kevin
+Nguyen-Duc
+Walker-Steven
+
+Press any key to continue . . .
+----------------------------------------------------------------------------
+*/
