@@ -1,12 +1,11 @@
 // --------------------------------------------------------------------------------------------
-//								Name: Ryan Beebe
-//								Project: No. 3 Part IV
-//								Course: CMPS 385
-//								Due: 2/28/2018
+//					Name: Ryan Beebe
+//					Project: No. 3 Part IV
+//					Course: CMPS 385
+//					Due: 2/28/2018
 //
-// Purpose: This accepts 10 integer, 10 capital letters, and 10 integers to select months then 
+// Purpose: This accepts 10 integers, 10 capital letters to select months then 
 //          displays the data in 3 column format
-//
 //---------------------------------------------------------------------------------------------
 
 #include <iostream>
