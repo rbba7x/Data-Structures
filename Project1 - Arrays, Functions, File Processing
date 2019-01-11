@@ -1,8 +1,8 @@
 // -----------------------------------------------------------------------------------------------------------------------------------
-//								Name: Ryan Beebe
-//								Project: No. 1 (arrays, functions, file processing)
-//								Course: CMPS 385
-//								Due: 2/14/2018
+//					Name: Ryan Beebe
+//					Project: No. 1 (arrays, functions, file processing)
+//					Course: CMPS 385
+//					Due: 2/14/2018
 //
 // Purpose: This project accepts input from a text file and organizes student names, ages, and gpa's into an array. This project
 //          will display the original array, a list of names of teengers, the average age, average gpa, and sorted array.
