@@ -1,12 +1,12 @@
 // -----------------------------------------------------------------------------------------------------------------------------------
-//								Name: Ryan Beebe
-//								Project: No. 5 Part III
-//								Course: CMPS 385
-//								Due: 3/14/2018
+//				Name: Ryan Beebe
+//				Project: No. 5 Part III
+//				Course: CMPS 385
+//				Due: 3/14/2018
 //
 // Purpose: This project generates 10 random integers and stores them in an array. The array is then pushed into a linked list. The
-//			data is read off of the linked list and all odd and even numbers are pushed into appropriate stacks to be displayed. The 
-//			program also calculates the average of all numbers.
+//	    data is read off of the linked list and all odd and even numbers are pushed into appropriate stacks to be displayed. The 
+//	    program also calculates the average of all numbers.
 //------------------------------------------------------------------------------------------------------------------------------------
 
 #include <iostream>
