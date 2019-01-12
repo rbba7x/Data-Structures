@@ -1,3 +1,11 @@
+//--------------------------------------------------------------------------------------------------------
+//				Name: Ryan Beebe
+//				Project: No. 7 Part II
+//				Course: CMPS 385
+//				
+// Purpose: This project asks the user to enter a month and then displays the amount of days in the month
+//--------------------------------------------------------------------------------------------------------
+
 #include <iostream>
 #include <string>
 using namespace std;
