@@ -1,8 +1,8 @@
 //--------------------------------------------------------------------------------------------------------
-//								Name: Ryan Beebe
-//							  Project: No. 8 Part I
-//								Course: CMPS 385
-//								 Due: 4/18/2018
+//				Name: Ryan Beebe
+//				Project: No. 8 Part I
+//				Course: CMPS 385
+//				Due: 4/18/2018
 //
 // Purpose: This project initializes an array of characters then displays the preorder traversal, postorder 
 //          traversal, and inorder traversal.
