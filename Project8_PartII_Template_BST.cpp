@@ -1,8 +1,8 @@
 //--------------------------------------------------------------------------------------------------------
-//								Name: Ryan Beebe
-//							  Project: No. 8 Part II
-//								Course: CMPS 385
-//								 Due: 4/18/2018
+//				Name: Ryan Beebe
+//				Project: No. 8 Part II
+//				Course: CMPS 385
+//				Due: 4/18/2018
 //
 // Purpose: This project initializes arrays of 3 different data types and puts them into a template binary 
 //          tree. Then the arrays are displayed in preorder
