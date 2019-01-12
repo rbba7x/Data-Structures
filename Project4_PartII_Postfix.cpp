@@ -1,8 +1,8 @@
 // --------------------------------------------------------------------------------------------
-//								Name: Ryan Beebe
-//								Project: No. 4 Part II
-//								Course: CMPS 385
-//								Due: 3/7/2018
+//				Name: Ryan Beebe
+//				Project: No. 4 Part II
+//				Course: CMPS 385
+//				Due: 3/7/2018
 //
 // Purpose: This project accepts values for 4 variables then reads and evaluates a postfix 
 //          expression
