@@ -1,8 +1,8 @@
 // --------------------------------------------------------------------------------------------
-//								Name: Ryan Beebe
-//								Project: No. 4 Part I
-//								Course: CMPS 385
-//								Due: 3/7/2018
+//				Name: Ryan Beebe
+//				Project: No. 4 Part I
+//				Course: CMPS 385
+//				Due: 3/7/2018
 //
 // Purpose: This project creates 3 arrays of varying data types and displays the arrays in
 //          reverse order
