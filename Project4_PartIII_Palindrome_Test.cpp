@@ -1,11 +1,10 @@
 // --------------------------------------------------------------------------------------------
-//								Name: Ryan Beebe
-//								Project: No. 4 Part III
-//								Course: CMPS 385
-//								Due: 3/7/2018
+//				Name: Ryan Beebe
+//				Project: No. 4 Part III
+//				Course: CMPS 385
+//				Due: 3/7/2018
 //
-// Purpose: This accepts a sentence and displays whether or not it is a palindrome         
-//
+// Purpose: This accepts a sentence and displays whether or not it is a palindrome
 //---------------------------------------------------------------------------------------------
 
 #include <iostream>
