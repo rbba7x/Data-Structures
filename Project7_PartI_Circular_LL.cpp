@@ -1,12 +1,11 @@
 //--------------------------------------------------------------------------------------------------------
-//								Name: Ryan Beebe
-//							  Project: No. 7 Part I
-//								Course: CMPS 385
-//								 Due: 4/11/2018
+//				Name: Ryan Beebe
+//				Project: No. 7 Part I
+//				Course: CMPS 385
+//				Due: 4/11/2018
 //
 // Purpose: This project generates 10 random integers <50 and puts them into a circular linked list. The
 //          circular link list is then displayed
-//       
 //--------------------------------------------------------------------------------------------------------
 
 #include <iostream>
