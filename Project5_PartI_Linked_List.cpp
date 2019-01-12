@@ -1,8 +1,8 @@
 // -----------------------------------------------------------------------------------------------------------------------------------
-//								Name: Ryan Beebe
-//								Project: No. 5 Part I
-//								Course: CMPS 385
-//								Due: 3/14/2018
+//				Name: Ryan Beebe
+//				Project: No. 5 Part I
+//				Course: CMPS 385
+//				Due: 3/14/2018
 //
 // Purpose: This project declares and initializes an array. The array is made into a linked list where the contents are displayed,
 //          summed, and the  number of  nodes is displayed.
