@@ -1,13 +1,13 @@
 
 	//--------------------------------------------------------------------------------------------------------
-	//								Name: Ryan Beebe
-	//							  Project: No. 6 Part I
-	//								Course: CMPS 385
-	//								 Due: 4/4/2018
+	//				Name: Ryan Beebe
+	//				Project: No. 6 Part I
+	//				Course: CMPS 385
+	//				Due: 4/4/2018
 	//
-	// Purpose: this projects inserts an array into a linked list to emulate a stack using FILO. The 
-	//       nodes are displayed, the total of all the nodes is displayed, and the number 
-	//       of nodes in the linked list is displayed.
+	// Purpose: This projects inserts an array into a linked list to emulate a stack using FILO. The 
+	//          nodes are displayed, the total of all the nodes is displayed, and the number 
+	//          of nodes in the linked list is displayed.
 	//--------------------------------------------------------------------------------------------------------
 
 #include<iostream>
