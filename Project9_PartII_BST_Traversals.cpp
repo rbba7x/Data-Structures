@@ -1,3 +1,12 @@
+//--------------------------------------------------------------------------------------------------------
+//				Name: Ryan Beebe
+//				Project: No. 9 Part II
+//				Course: CMPS 385
+//				
+//
+// Purpose: This project traverses through a binary search tree
+//--------------------------------------------------------------------------------------------------------
+
 #include <iostream>
 #include <string>
 using namespace std;
