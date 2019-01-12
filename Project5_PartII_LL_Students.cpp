@@ -1,8 +1,8 @@
 // -----------------------------------------------------------------------------------------------------------------------------------
-//								Name: Ryan Beebe
-//								Project: No. 5 Part II
-//								Course: CMPS 385
-//								Due: 3/14/2018
+//				Name: Ryan Beebe
+//				Project: No. 5 Part II
+//				Course: CMPS 385
+//				Due: 3/14/2018
 //
 // Purpose: This project asks the user to enter in names, ages, and gpa's which are input into  a linked list. The oldest person's 
 //          name and age is displayed. The average gpa is displayed.
