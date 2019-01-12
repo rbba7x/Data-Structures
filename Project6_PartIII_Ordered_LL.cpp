@@ -1,8 +1,8 @@
 //--------------------------------------------------------------------------------------------------------
-//								Name: Ryan Beebe
-//							  Project: No. 6 Part III
-//								Course: CMPS 385
-//								 Due: 4/4/2018
+//				Name: Ryan Beebe
+//				Project: No. 6 Part III
+//				Course: CMPS 385
+//				Due: 4/4/2018
 //
 // Purpose: Insert data in array C into an ordered linked list then display all the nodes
 //          The program then finds and displays the average of all even numbers in the list.
