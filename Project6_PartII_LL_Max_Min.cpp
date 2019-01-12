@@ -1,11 +1,11 @@
 //--------------------------------------------------------------------------------------------------------
-//								Name: Ryan Beebe
-//							  Project: No. 6 Part II
-//								Course: CMPS 385
-//								 Due: 4/4/2018
+//				Name: Ryan Beebe
+//				Project: No. 6 Part II
+//				Course: CMPS 385
+//				Due: 4/4/2018
 //
-// purpose: Insert array b in linked list to emulate a queue using FIFO and display the contents of
-//    all nodes. The program then finds the minand max in the queue.
+// Purpose: Insert array b in linked list to emulate a queue using FIFO and display the contents of
+//          all nodes. The program then finds the min and max in the queue.
 //--------------------------------------------------------------------------------------------------------
 
 #include <iostream>
